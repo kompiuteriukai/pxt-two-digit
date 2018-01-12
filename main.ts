@@ -1,4 +1,4 @@
-//% weight=100 color=#0fbc11 icon="\u0023" block="digit"
+//% weight=100 color=#0fbc11 icon="\u0023" block="two digit"
 namespace twodigit {
 
     const numFont = [
@@ -6,7 +6,7 @@ namespace twodigit {
         ["01", "01", "01", "01", "01"],   //1
         ["11", "01", "11", "10", "11"],   //2
         ["11", "01", "11", "01", "11"],   //3
-        ["11", "11", "11", "01", "01"],   //4
+        ["10", "10", "11", "01", "01"],   //4
         ["11", "10", "11", "01", "11"],   //5
         ["11", "10", "11", "11", "11"],   //6
         ["11", "01", "01", "01", "01"],   //7
@@ -19,8 +19,8 @@ namespace twodigit {
      * TODO: describe your function here
      * @param v describe value here, eg: 0
      */
-    //% blockId=two_digits block="two-digit  %v"
-    export function twoDigit(v: number): void {
+    //% blockId=showNumber block="two digit  %v"
+    export function showNumber(v: number): void {
         basic.clearScreen()
         if (v < -9) {
             basic.showLeds(`
@@ -32,8 +32,6 @@ namespace twodigit {
             `)
             return
         }
-
-        let n3 = (v / 100)
         let n2 = 0
         if (v < 0) {
             n2 = 10
