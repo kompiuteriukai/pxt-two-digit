@@ -1,4 +1,4 @@
-# two-digit
+# pxt-two-digit
 
 show number in two digit
 
@@ -11,5 +11,4 @@ MIT
 ## Supported targets
 
 * for PXT/microbit
-(The metadata above is needed for package search.)
 
