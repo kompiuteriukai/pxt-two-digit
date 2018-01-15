@@ -16,7 +16,7 @@ namespace twodigit {
     ]
 
     /**
-     * TODO: describe your function here
+     * show number in two digit
      * @param v describe value here, eg: 0
      */
     //% blockId=showNumber block="two digit  %v"
