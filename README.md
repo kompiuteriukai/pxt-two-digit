@@ -4,7 +4,7 @@ show number in two digit
 
 ![two digit](https://raw.githubusercontent.com/linclip/pxt-two-digit/master/icon.png "two digit")
 
-## How to load
+## Usage
 
 Gear -> Add Package
 
