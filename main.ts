@@ -36,7 +36,7 @@ namespace twodigit {
         if (v < 0) {
             n2 = 10
         } else {
-            n2 = (v % 100 / 10)
+            n2 = Math.floor(v % 100 / 10)
         }
         let n1 = Math.abs(v % 10)
 
