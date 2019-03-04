@@ -38,7 +38,7 @@ namespace twodigit {
         } else {
             n2 = Math.floor(v % 100 / 10)
         }
-        let n1 = Math.abs(v % 10)
+        let n1 = Math.abs(Math.floor(v % 10))
 
         for (let y = 0; y < 5; y++) {
             if (n2 != 0) {
