@@ -36,12 +36,12 @@ namespace twodigit {
         if (v < 0) {
             n2 = 10
         } else {
-            n2 = Math.round(v % 100 / 10)
+            n2 = (v % 100 / 10)
         }
         let n1 = Math.abs(v % 10)
 
         for (let y = 0; y < 5; y++) {
-            if ((n2 != 0) || (v > 99) ){
+            if (n2 != 0) {
                 for (let x = 0; x < 2; x++) {
                     if ((numFont[n2][y]).substr(x, 1) == "1") {
                         led.plot(x, y)
