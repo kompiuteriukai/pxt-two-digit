@@ -1,6 +1,6 @@
 {
     "name": "two-digit",
-    "version": "0.0.5",
+    "version": "1.0.0",
     "description": "show number in two digit",
     "license": "MIT",
     "dependencies": {
