@@ -8,7 +8,7 @@ The package adds support for showing number in two digit
 
 Gear -> Add Package
 
-Input "https://github.com/linclip/pxt-two-digit"
+Input "https://github.com/kompiuteriukai/pxt-two-digit"
 
 ## Code Example
 ```JavaScript
